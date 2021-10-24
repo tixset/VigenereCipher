@@ -18,6 +18,16 @@
 Пытался так же переписать ее на языках "**python**" и "**bash**", но у меня это сделать не получилось из-за особенностей используемого в них метода преобразования числа в символ.
 Мой неудачный код на ЯП "**python**" и "**bash**" так же включен в репозиторий, если у Вас есть какие-то идеи как его исправить, пишите мне :smile:.
 
+Пример использования функции:
+```c++
+# зашифровать
+res = code("text", "password", true);
+print (res);
+# разшифровать
+res = code(res, "password", false);
+print (res);
+```
+
 ---
 
 # Example of Vigenere cipher in several programming languages
@@ -39,3 +49,13 @@ And now I present to you this function translated into several programming langu
 
 I also tried to rewrite it in the languages "**python**" and "**bash**", but I could not do it because of the peculiarities of the method used in them to convert a number into a symbol.
 My unsuccessful code in the programming languages "**python**" and "**bash**" is also included in the repository, if you have any ideas how to fix it, write to me :smile:.
+
+Example of using the function:
+```c++
+# encrypt
+res = code("text", "password", true);
+print (res);
+# decrypt
+res = code(res, "password", false);
+print (res);
+```
