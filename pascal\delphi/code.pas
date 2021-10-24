@@ -6,6 +6,6 @@ begin
     if decode then sign := -1 else sign := 1;
     for i := 1 to Length(text) do
     begin
-      result :=result+ chr(ord(text[i]) + sign * ord(password[i mod length(password) + 1]));
+        result :=result+ chr(ord(text[i]) + sign * ord(password[i mod length(password) + 1]));
     end;
 end;
