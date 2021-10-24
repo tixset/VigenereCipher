@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 use bytes;
-sub code{
+sub code {
         my ($text, $password, $decode) = (shift, shift, shift);
         exit 1 if length($password) == 0;
         my $sign = 1;
