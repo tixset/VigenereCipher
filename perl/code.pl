@@ -9,8 +9,7 @@ sub code{
         $sign = -1 if $decode == 1;
         my $result = "";
         for (my $i=0; $i <= length($text) - 1; $i++) {
-                my $e1 = $sign * ord(substr($password, $i % length($password), 1));
-                $result = $result . chr(ord(substr($text, $i, 1)) + $e1);
+                $result .= chr(ord(substr($text, $i, 1)) + $sign * ord(substr($password, $i % length($password), 1)));
         }
         return $result;
 }
