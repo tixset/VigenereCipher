@@ -20,9 +20,9 @@
 
 ---
 
-# Example of Vision cipher in several programming languages
+# Example of Vigenere cipher in several programming languages
 
-*Vigener cipher is the addition of a block of plaintext with a key modulo the power of the alphabet.*
+*Vigenere cipher is the addition of a block of plaintext with a key modulo the power of the alphabet.*
 
 Once upon a time, I had the need to transfer an encrypted string of text between the server and the client.
 
