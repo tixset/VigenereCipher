@@ -1,3 +1,4 @@
+<?php
 function code($text, $password, $decode) {
     $passlen = strlen($password);
     if ($passlen == 0) exit;
@@ -8,3 +9,4 @@ function code($text, $password, $decode) {
     }
     return $result;
 }
+?>
