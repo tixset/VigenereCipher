@@ -1,5 +1,5 @@
 function code(text, key, decode) {
-  var sign;
+    var sign;
     var result = "";
     if (key.length == 0) return;
     (decode) ? sign = -1 : sign = 1;
