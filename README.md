@@ -28,6 +28,8 @@ res = code(res, "password", false);
 print (res);
 ```
 
+При передаче данных, зашифрованных таким методом, в некоторых ЯП могут возникнуть проблемы, поэтому рекомендую зашифрованные данные заворачивать например в base64.
+
 ---
 
 # Example of Vigenere cipher in several programming languages
@@ -59,3 +61,5 @@ print (res);
 res = code(res, "password", false);
 print (res);
 ```
+
+When transferring data encrypted by this method, problems may arise in some programming languages, so I recommend wrapping encrypted data in base64, for example.
